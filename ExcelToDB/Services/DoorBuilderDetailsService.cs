@@ -158,22 +158,7 @@ namespace ExcelToDB.Services
                     con.Close();
                 }
 
-                //using (SqlCommand command = new SqlCommand())
-                //{
-                //    command.Connection = conn;
-
-                //    command.CommandText = "SP_BulkInsertBrandChannel";
-                //    command.Parameters.Add("@brandchannel", SqlDbType.Structured);
-                //    command.Parameters["@brandchannel"].TypeName = "UDT_BrandChannels";
-
-                //    command.CommandType = CommandType.StoredProcedure;
-                //    command.Parameters["@brandchannel"].Value = manipulatedDt;
-
-                //    conn.Open();
-                //    command.ExecuteNonQuery();
-                //    conn.Close();
-
-                //}
+               
             }
         }
 
